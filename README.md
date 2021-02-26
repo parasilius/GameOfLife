@@ -14,9 +14,10 @@ the cells that are horizontally, vertically, or diagonally adjacent. At each
 step in time, the following transitions occur:  
 + Any live cell with fewer than two live neighbors dies, as if by 
 underpopulation.  
-+ Any live cell with more than three neighbors dies, as if by overpopulation.  
-+ Any live cell with two or three neighbors lives on to the next generation.  
-+ Any live cell with two or three live neighbors survives.  
++ Any live cell with more than three live neighbors dies, as if by 
+overpopulation.  
++ Any live cell with two or three live neighbors lives on to the next 
+generation.  
 + Any dead cell with three live neighbors becomes a live cell.  
 Here is a world map with five live cells(all the other cells are considered to 
 be dead):  
@@ -27,8 +28,8 @@ If we write a program to perform the rules in each seperate time unit, we
 would have a performance like this:  
 ![a sample performance](https://uupload.ir/files/3fba_output5.gif)  
 ## Simulation Details
-+ Simulation starts with $t = 1$ and continues to infinity.  
-+ For each $t$ the output buffer should be cleared completely(you are allowed 
++ Simulation starts with t = 1 and continues to infinity.  
++ For each t, the output buffer should be cleared completely(you are allowed 
 to use the given tip) and the map for the corresponding time should be 
 displayed in the output buffer.  
 + Use the symbols █ & ░ to display the live and dead cells correspondingly.  
