@@ -32,7 +32,7 @@ would have a performance like this:
 + For each t, the output buffer should be cleared completely(you are allowed 
 to use the given tip) and the map for the corresponding time should be 
 displayed in the output buffer.  
-+ Use the symbols █ & ░ to display the live and dead cells correspondingly.  
++ Use the symbols █ & ░ to display the live and dead cells respectively.  
 ### TIP: A Function for Clearing the Output Buffer
 ```
 def clear():
