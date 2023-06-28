@@ -1,4 +1,4 @@
-from grid import Grid
+from game_of_life.grid import Grid
 import os
 from time import sleep
 
@@ -22,7 +22,7 @@ def clear():
 # grid.show()
 
 def main():
-    grid = Grid()
+    grid = Grid('maps/map.init')
     grid.initialize()
     grid.show()
     while True:

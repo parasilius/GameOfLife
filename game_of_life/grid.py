@@ -1,13 +1,13 @@
-import cell
+import game_of_life.cell as cell
 
 class Grid:
-    def __init__(self):
-        pass
+    def __init__(self, fmap):
+        self.fmap = fmap
     
     def initialize(self):
         self.map = list()
         self.n = 0
-        with open('map.init') as mp:
+        with open(self.fmap) as mp:
             for line in mp.readlines():
                 self.n += 1
                 line = line.strip()
