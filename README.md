@@ -21,7 +21,7 @@ generation.
 + Any dead cell with three live neighbors becomes a live cell.  
 Here is a world map with five live cells(all the other cells are considered to 
 be dead):  
-![a world map with five live cells](https://uupload.ir/files/c9mb_map.png)  
+![a world map with five live cells](./images/c9mb_map.png)  
 Here is a cell with its neighbors:  
 ![a cell with its neighbors](https://uupload.ir/files/0glm_neighbors.png)  
 If we write a program to perform the rules in each seperate time unit, we 
