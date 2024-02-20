@@ -23,10 +23,10 @@ Here is a world map with five live cells(all the other cells are considered to
 be dead):  
 ![a world map with five live cells](./images/c9mb_map.png)  
 Here is a cell with its neighbors:  
-![a cell with its neighbors](https://uupload.ir/files/0glm_neighbors.png)  
+![a cell with its neighbors](./images/0glm_neighbors.png)  
 If we write a program to perform the rules in each seperate time unit, we 
 would have a performance like this:  
-![a sample performance](https://uupload.ir/files/3fba_output5.gif)  
+![a sample performance](./images/3fba_output5.gif)  
 ## Simulation Details
 + Simulation starts with t = 1 and continues to infinity.  
 + For each t, the output buffer should be cleared completely(you are allowed 
